@@ -1,0 +1,9 @@
+[http]
+hostname = "ipecho.yourdomain.com"
+port = 9000
+
+[metrics]
+app = "ipecho"
+prometheus_host = "https://prometheus.yourdomain.com"
+prometheus_username = ""
+prometheus_password = ""
