@@ -1,3 +1,6 @@
+# ipecho
+Simple micro service returning the caller's IP over http (intended for dynamic dns use cases)
+
 # build
 ```go build ipecho.go```
 
