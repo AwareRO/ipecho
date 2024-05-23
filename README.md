@@ -1,5 +1,5 @@
 # ipecho
-Simple micro service returning the caller's IP over http (intended for dynamic dns use cases)
+Simple micro service returning the caller's IP over http (intended for dynamic dns use cases). An example DynDNS client can be found here: https://github.com/AwareRO/owndyndns.
 
 # build
 ```go build ipecho.go```
