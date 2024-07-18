@@ -1,5 +1,5 @@
-github.com/AwareRO/libaware/golang v0.0.0-20240522191944-c5261072ea79 h1:7Ays70l9qgyySCq1zY80X0jenH0o3u5F5g7azAOAmC0=
-github.com/AwareRO/libaware/golang v0.0.0-20240522191944-c5261072ea79/go.mod h1:oe31VlI4hdow2LApuaWxfPndLM4NITQeCfcH6zq+uXk=
+github.com/AwareRO/libaware/golang v0.0.0-20240718100907-0999c019d2e0 h1:ByzDHvD7qRiacP2sFRJ5mWAw+JlAqJQKppUNSjdBdpM=
+github.com/AwareRO/libaware/golang v0.0.0-20240718100907-0999c019d2e0/go.mod h1:oe31VlI4hdow2LApuaWxfPndLM4NITQeCfcH6zq+uXk=
 github.com/BurntSushi/toml v1.2.1 h1:9F2/+DoOYIOksmaJFPw1tGFy1eDnIJXg+UHjuD8lTak=
 github.com/BurntSushi/toml v1.2.1/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=

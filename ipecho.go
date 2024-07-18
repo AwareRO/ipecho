@@ -7,7 +7,6 @@ import (
 	"strings"
 
 	awahttp "github.com/AwareRO/libaware/golang/http"
-	"github.com/AwareRO/libaware/golang/http/handlers"
 	"github.com/AwareRO/libaware/golang/http/middlewares"
 
 	"github.com/ilyakaznacheev/cleanenv"
@@ -47,12 +46,12 @@ func main() {
 		return
 	}
 
-	metricsWrapper := middlewares.NewDefaultDurationMetricWrapper(config.Metrics)
+	metricsWrapper := middlewares.NewDurationMetricWrapper(middlewares.WithMetricsConf(config.Metrics))
 	router := httprouter.New()
 	port := config.Http.Port
 
 	router.GET("/", metricsWrapper.Wrap(handler))
-	router.GET("/metrics", handlers.FromStdlib(metricsWrapper.Collector.GetHttpHandler()))
+	router.GET("/metrics", metricsWrapper.MetricsHandler())
 
 	log.Info().Int("port", port).Msg("Starting")
 

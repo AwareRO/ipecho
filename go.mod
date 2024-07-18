@@ -3,7 +3,7 @@ module github.com/AwareRO/ipecho
 go 1.21
 
 require (
-	github.com/AwareRO/libaware/golang v0.0.0-20240522191944-c5261072ea79
+	github.com/AwareRO/libaware/golang v0.0.0-20240718100907-0999c019d2e0
 	github.com/ilyakaznacheev/cleanenv v1.5.0
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/rs/zerolog v1.32.0
